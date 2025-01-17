@@ -188,12 +188,12 @@ function startTimer(time) {
     }
 }
 
-function startTimerline(time) {
+function startTimerline(widthVal) {
     counterLine = setInterval(timer, 29);
     function timer() {
-        time += 1;
-        timerline.style.width = time + "px";
-        if (time > 549) {
+        widthVal += 1;
+        timerline.style.width = widthVal + "px";
+        if (widthVal > 549) {
             clearInterval(counterLine);
         }
     }

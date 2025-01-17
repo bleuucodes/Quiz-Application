@@ -24,7 +24,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -45,15 +45,14 @@ body{
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #fff;
+    background-color: #fff;
     cursor: pointer;
 }
 
 .info_box{
     width: 540px;
-    background: #fff;
+    background-color: #fff;
     border-radius: 5px;
-    transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -66,7 +65,6 @@ body{
     display: flex;
     align-items: center;
     padding: 0 30px;
-    border-radius: 5px 5px 0 0;
     font-size: 20px;
     font-weight: 600;
 }
@@ -104,14 +102,12 @@ body{
     outline: none;
     border-radius: 5px;
     border: 1px solid #007bff;
-    transition: all 0.3s ease;
 }
 
 .quiz_box{
     width: 550px;
     background: #fff;
     border-radius: 5px;
-    transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -119,7 +115,7 @@ body{
 
 .quiz_box header{
     position: relative;
-    z-index: 2;
+    /* z-index: 2; */
     height: 70px;
     padding: 0 30px;
     background: #fff;
@@ -151,7 +147,6 @@ body{
 .quiz_box header .timer .time_left_txt{
     font-weight: 400;
     font-size: 17px;
-    user-select: none;
 }
 
 .quiz_box header .timer .timer_sec{
@@ -165,7 +160,6 @@ body{
     text-align: center;
     background: #343a40;
     border: 1px solid #343a40;
-    user-select: none;
 }
 
 .quiz_box header .timer_line{
@@ -188,7 +182,6 @@ section .que_text{
 
 section .option_list{
     padding: 20px 0px;
-    display: block;   
 }
 
 section .option_list .option{
@@ -199,7 +192,6 @@ section .option_list .option{
     font-size: 17px;
     margin-bottom: 15px;
     cursor: pointer;
-    transition: all 0.3s ease;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -242,6 +234,7 @@ section .option_list .option .icon{
     transition: all 0.3s ease;
     line-height: 24px;
 }
+
 .option_list .option .icon.tick{
     color: #23903c;
     border-color: #23903c;
@@ -303,7 +296,6 @@ footer button:hover{
 footer button.show{
     opacity: 1;
     pointer-events: auto;
-    transform: scale(1);
 }
 
 .result_box{
