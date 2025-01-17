@@ -258,7 +258,6 @@ footer{
 
 footer .total_que span{
     display: flex;
-    user-select: none;
 }
 
 footer .total_que span p{
