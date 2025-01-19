@@ -25,17 +25,14 @@ let widthValue = 0;
 let counter;
 let counterLine;
 
-// if start btn is clicked
 start_btn.addEventListener("click", function () {
     info_box.classList.add("activeInfo");
 });
 
-// if exit button in rules box is clicked
 exit_btn.onclick = () => {
     info_box.classList.remove("activeInfo");
 };
 
-// if continue btn is pressed in rules box
 continue_btn.onclick = () => {
     info_box.classList.remove("activeInfo");
     quiz_box.classList.add("activeQuiz");
@@ -45,7 +42,6 @@ continue_btn.onclick = () => {
     quesCounter(que_numb);
 };
 
-// next button is clicked
 next_btn.onclick = () => {
     if (que_numb < questions.length) { //if question number is less than total questions
         que_numb++;
