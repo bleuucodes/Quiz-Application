@@ -1,2 +1,1 @@
-# FrontEnd-Projects
-Repository of frontend projects using HTML, CSS and JavaScript.
+#This is the repository for a quiz application built using html css and javascript.
