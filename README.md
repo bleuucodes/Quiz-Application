@@ -5,7 +5,6 @@ A dynamic, interactive Quiz App built using *HTML, **CSS, and **vanilla JavaScri
 ## Features
 
 - Multiple-choice questions
-- Instant feedback for selected answers (optional)
 - Score display at the end
 - Clean and responsive interface
 - Simple to customize or expand with more questions
